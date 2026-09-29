@@ -56,9 +56,9 @@ Below is a curated comparison of leading SaaS solutions for heavy equipment flee
 
 ## 💻 Open-Source GitHub Projects
 
-The open-source ecosystem offers powerful options for self-hosting telematics servers, CAN bus decoding engines, logistics dispatching, and equipment maintenance modules. Projects are sorted by **GitHub Star Count** descending:
+The open-source ecosystem offers powerful options for self-hosting telematics servers, CAN bus decoding engines, logistics dispatching, and equipment maintenance modules. Projects are sorted by **GitHub Stars_Count** descending:
 
-| 📦 Repository | ⭐️ Star Count | 🛠️ Tech Stack & License | 🚀 Primary Focus |
+| 📦 Repository | ⭐️ Stars_Count | 🛠️ Tech Stack & License | 🚀 Primary Focus |
 | :--- | :--- | :--- | :--- |
 | **[Traccar](https://github.com/traccar/traccar)** | [![Traccar Stars](https://img.shields.io/github/stars/traccar/traccar?style=social&color=white)](https://github.com/traccar/traccar/stargazers) | Java, React, MySQL/PostgreSQL (Apache-2.0) | Leading open-source GPS tracking system supporting **200+ telemetry protocols** and 2,000+ device models. Supports geofencing, speed alerts, and custom alarms. |
 | **[OpenRemote](https://github.com/openremote/openremote)** | [![OpenRemote Stars](https://img.shields.io/github/stars/openremote/openremote?style=social&color=white)](https://github.com/openremote/openremote/stargazers) | Java, TypeScript, PostgreSQL (AGPL-3.0) | 100% open-source IoT Platform with dedicated fleet management and asset tracking modules for large-scale equipment monitoring. |
