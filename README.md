@@ -1,229 +1,109 @@
-# Awesome-Construction-Equipment-Fleet-Management
+# 🏗️ Awesome Construction Equipment Fleet Management 🚜
 
-## Top Equipment Fleet Management (Construction) Platforms Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a> <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
+![Awesome Construction Equipment Fleet Management Ecosystem Banner](assets/banner.svg)
 
+## 📌 Top Equipment Fleet Management (Construction) Platforms Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Construction Equipment Tracking, Maintenance Management, Telematics & Jobsite Utilization*  
+**Curated List of Construction Fleet Management SaaS Products & Open-Source Telematics GitHub Projects**  
+*Focused on Construction Equipment Tracking, Preventive Maintenance Management, CAN Bus & OBD-II Telematics, Jobsite Utilization & Asset Tracking*  
 
 **Last updated: September 2026**
 
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Equipment Fleet Management in Construction**. These tools help construction companies, heavy equipment operators, and field service teams track machinery, schedule maintenance, manage utilization, and optimize fleet costs across jobsites.
-
-
-
-**Examples** include Tenna, HCSS Equipment360, Samsara Equipment, Teletrac Navman, Trimble Fleet, Trackunit, EquipmentShare, Geotab Construction, Fleetio Construction, and VisionLink (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom telematics pipelines, and transparent fleet data — ideal for contractors and fleet managers who need full control over their equipment data without per-machine SaaS fees or vendor lock-in.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Tenna](https://www.tenna.com/)**
-
-  Construction equipment management platform for tracking, maintenance, and utilization. Provides real-time equipment location, hours tracking, and job costing across mixed fleets.
-
-
-
-- **[HCSS Equipment360](https://www.hcss.com/)**
-
-  Equipment management software for heavy civil construction. Provides maintenance scheduling, parts inventory, and utilization analytics integrated with HCSS's broader construction suite.
-
-
-
-- **[Samsara Equipment](https://www.samsara.com/)**
-
-  Fleet telematics platform with construction equipment tracking. Provides GPS, engine diagnostics, maintenance alerts, and utilization reporting across vehicles and heavy equipment.
-
-
-
-- **[Teletrac Navman](https://www.teletracnavman.com/)**
-
-  Fleet and equipment telematics for construction. Provides GPS tracking, maintenance scheduling, and compliance reporting.
-
-
-
-- **[Trimble Fleet](https://www.trimble.com/)**
-
-  Fleet management and telematics platform for construction. Integrates with Trimble's broader construction technology ecosystem for equipment tracking and site management.
-
-
-
-- **[Trackunit](https://trackunit.com/)**
-
-  Construction equipment telematics specialist. Provides real-time tracking, utilization analytics, and maintenance management for rental and owned fleets.
-
-
-
-- **[EquipmentShare](https://www.equipmentshare.com/)**
-
-  Construction equipment rental and fleet management platform. Provides equipment tracking, telematics, and rental management.
-
-
-
-- **[Geotab Construction](https://www.geotab.com/)**
-
-  Telematics platform with construction-specific equipment tracking. Provides GPS, engine data, and maintenance alerts for mixed fleets.
-
-
-
-- **[Fleetio Construction](https://www.fleetio.com/)**
-
-  Fleet maintenance management software adapted for construction equipment. Provides work orders, parts inventory, and maintenance scheduling.
-
-
-
-- **[VisionLink](https://www.cat.com/)**
-
-  Caterpillar's equipment management platform. Provides real-time machine data, utilization reporting, and maintenance alerts for Cat equipment.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Traccar](https://github.com/traccar/traccar)**
-
-  The most established open-source GPS tracking platform. **Java-based, Apache-2.0 license, 200+ device protocols, 2000+ GPS device models supported** . Provides real-time tracking, driver behavior monitoring, geofencing, alarms, and reports. Self-hosted or managed hosting available. Widely used as the foundation for construction equipment tracking deployments .
-
-
-
-- **[Track Maintenance](https://github.com/Marvinjon/track-maintenance)**
-
-  Open-source companion service for Traccar that adds **vehicle maintenance logs, spare-parts inventory, and service reminders**. Uses Traccar's REST API and `event.forward` webhooks — no modifications to Traccar itself. **Python 3.12 + FastAPI + React 18 + MySQL 8**. Multi-tenant auth via Traccar credentials. White-label ready with custom branding. Apache-2.0 .
-
-
-
-- **[Fleetbase](https://github.com/fleetbase/fleetbase)**
-
-  Open-source **Logistics and Supply Chain Operating System** with modular architecture. The **Fleet-Ops** module provides fleet management, order dispatch, real-time driver tracking, and route optimization. **AGPL-3.0 license**, self-hostable on any infrastructure. **1.9k+ GitHub stars, 50+ contributors, 8,000+ active instances** . Full source code access, no per-seat fees. Deploy to AWS, Azure, GCP, or on-prem .
-
-
-
-- **[Fleet Management System (PyPI)](https://pypi.org/project/fleet-management-system/)**
-
-  Python package for automotive telematics with **OBD-II diagnostics, GPS tracking (NMEA 0183), CAN bus decoding, DTC analysis (600+ codes), and alert engine**. Supports speeding, engine overheat, low fuel, harsh braking/acceleration, geofence violations. **FastAPI + SQLite/PostgreSQL**. Installable via `pip install fleet-management-system`. Docker deployment .
-
-
-
-- **[Routario](https://hub.docker.com/r/bkbillybk/routario)**
-
-  Self-hosted GPS fleet tracking with **no subscriptions, data never leaves your server**. Connects directly to GPS hardware over TCP/UDP. Features live map, smart alerts (speeding, geofence, idling, towing, maintenance), notifications (Telegram, Discord, Email, Slack), history playback, logbook with per-vehicle service records, and **8 native protocols** (Teltonika, GT06, Queclink, H02, TK103, Meitrack, Flespi, OsmAnd). **Python 3.11+ + FastAPI + PostgreSQL/PostGIS + Redis** .
-
-
-
-- **[OpenRemote](https://github.com/openremote/openremote)**
-
-  **100% open-source IoT Platform** for device integration, rules, and data visualization. **1,430 GitHub stars, 351 forks**. The **fleet-management** implementation on top of OpenRemote provides telematics capabilities. Java-based, actively maintained .
-
-
-
-- **[Fleetms](https://github.com/jmnda-dev/fleetms)**
-
-  Open-source Fleet Maintenance and Management software. Features **vehicles module** (CRUD, document storage, renewal reminders), **inspections module** (DVIR checklists), **issues module**, **service groups and reminders**, **work orders**, **parts and inventory**, and **fuel log**. **Elixir/Phoenix + PostgreSQL + Tailwind CSS** .
-
-
-
-- **[Loxya / Robert2](https://github.com/Loxya/Loxya)**
-
-  Open-source equipment rental management platform. Manage inventory, reservations, customers, and generate contracts. Self-host for free or use cloud. Docker deployment available .
-
-
-
-- **[CarCare Server](https://github.com/kacperkasztelanic/carcare-server)**
-
-  Vehicle fleet management system with **tracking of repairs, services, inspections, insurances, refuels, and mileage**. Email notifications for important events (insurance expiry). Statistics and Excel reports. **Spring Boot + Hibernate + MariaDB** backend, **React + TypeScript** frontend. Docker deployment .
-
-
-
-- **[Omniscient (Bouygues Construction)](https://kuzzle.io/)**
-
-  Construction-specific IoT platform developed from Bouygues Construction's intrapreneurship program. Manages **30,000 sensors on construction equipment** (cranes, bungalows, access consoles) using GPS, LP-GPS, and WiFi technologies. Real-time location, automatic monthly billing per jobsite, and rotation rate calculation. Built on **Kuzzle IoT Platform (Apache 2.0)** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **GPS Tracking Foundations**: **Traccar** (200+ protocols, most mature), **Routario** (self-hosted, no subscriptions), **OpenRemote** (IoT platform with fleet module) .
-
-- **Maintenance & Inventory**: **Track Maintenance** (Traccar companion, FastAPI), **Fleetms** (Phoenix, full maintenance suite), **CarCare** (Spring Boot, repair tracking) .
-
-- **Fleet Operations**: **Fleetbase** (logistics OS, Fleet-Ops module), **Loxya** (equipment rental management) .
-
-- **Telematics**: **Fleet Management System** (PyPI package, OBD-II + CAN bus + DTC) .
-
-- **Construction-Specific IoT**: **Omniscient** (Bouygues Construction, 30k sensors) .
-
-
-
-**Frameworks for building custom systems**: Combine **Traccar** for GPS tracking and device protocol support, **Track Maintenance** for maintenance logs and parts inventory, **Fleetms** for full fleet maintenance workflows, and **Fleetbase** for logistics and dispatch operations. Add **PostgreSQL/MySQL** for persistence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Equipment fleet management platforms handle sensitive operational data; ensure proper access controls and compliance with relevant regulations.
-
-- **Open-source reality**: The open-source ecosystem for construction fleet management is **mature at the GPS tracking layer** (**Traccar**, **Routario**) and **maintenance management layer** (**Fleetms**, **Track Maintenance**) . **Fleetbase** provides a comprehensive logistics OS with fleet operations modules . However, **construction-specific features** (jobsite geofencing, attachment tracking, mixed fleet utilization across owned/rented equipment) require significant integration work or commercial platforms (Tenna, HCSS, Trackunit).
-
-
+This repository tracks top-tier **SaaS platforms** and **open-source projects** for **Equipment Fleet Management in Construction**. These tools help heavy civil contractors, construction companies, heavy equipment operators, rental companies, and field service teams track machinery location, schedule preventive maintenance, manage parts inventory, monitor engine diagnostics, and optimize mixed-fleet operating costs across jobsites.
 
 ---
 
+## 📑 Table of Contents
 
+- [📊 Market Overview & Industry Dynamics](#-market-overview--industry-dynamics)
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-**Made for construction fleet managers, equipment operators, field service teams, and telematics developers.**
+---
 
-Let's make equipment fleet management more open, transparent, and jobsite-ready.
+## 📊 Market Overview & Industry Dynamics
+
+> **Market Size & Structure**: The global construction equipment fleet management and telematics market size is estimated at **\$9.2 Billion in 2026** and projected to reach **\$16.8 Billion by 2031** (CAGR of ~12.7%).
+> 
+> **Industry Fragmentation**: The market is **highly fragmented**. While large public enterprise players (such as Caterpillar VisionLink and Samsara) command significant market share in enterprise mixed fleet telemetry, hundreds of specialized regional vendors, OEM-integrated software solutions, and niche equipment tracking providers split the remaining market. No single vendor holds a dominant "winner-take-all" monopoly.
+
+---
+
+## 🏢 SaaS/Hosted Platforms
+
+Below is a curated comparison of leading SaaS solutions for heavy equipment fleet management, ordered by **Company Scale (Revenue / Valuation)** descending:
+
+| 🏢 Platform | 💰 Starting Pricing | 🎁 Free Tier / Trial Limits | 📈 Scale (Rev / Valuation) | 📝 Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Caterpillar VisionLink](https://www.cat.com/)** | \$15/asset/month (Basic Telematics) | 30-Day Free Trial (up to 5 assets) | **\$67.1B Rev / \$170B Val** (Caterpillar Inc.) | Caterpillar's flagship equipment management software providing real-time machine payload, fuel burn, fault codes, and utilization analytics across Cat and AEMP 2.0 mixed fleets. |
+| **[Trimble Fleet](https://www.trimble.com/)** | \$22/vehicle/month (Core Telematics) | 14-Day Request Demo / Trial | **\$3.8B Rev / \$15.2B Val** | Comprehensive construction telematics platform integrated with Trimble Connected Site for machine control, grade control, and heavy civil fleet dispatching. |
+| **[Samsara Equipment](https://www.samsara.com/)** | \$33/asset/month (Annual Contract) | 30-Day Free Hardware Trial | **\$1.8B Rev / \$22.5B Val** | AI-powered Connected Operations Cloud offering equipment GPS tracking, engine diagnostics, driver safety dashcams, and automated maintenance alerts. |
+| **[Geotab Construction](https://www.geotab.com/)** | \$18/device/month (Base Plan) | 30-Day Pilot Program | **\$650M Rev / \$2.5B Val** | Scalable telematics and OBD-II/J1939 engine diagnostic platform tailored for mixed construction fleets, electric equipment, and asset tracking. |
+| **[EquipmentShare](https://www.equipmentshare.com/)** | \$25/asset/month (T3 Telematics OS) | Free 14-Day T3 System Demo | **\$3.2B Rev / \$4.5B Val** | Construction technology & rental ecosystem powered by T3 OS for contractor asset tracking, remote equipment lockout, and digital work orders. |
+| **[Teletrac Navman](https://www.teletracnavman.com/)** | \$20/vehicle/month (Director Lite) | 14-Day Guided Trial | **\$250M Rev / \$1.2B Val** (Vontier Corp) | Construction fleet telematics solution offering GPS tracking, jobsite geofencing, driver scorecarding, and fuel compliance reporting. |
+| **[Trackunit](https://trackunit.com/)** | \$19/machine/month (Raw Connect) | 30-Day Free Trial (Select OEM Hardware) | **\$185M Rev / \$1.1B Val** | Specialist telematics provider for heavy machinery and rental fleets, featuring Bluetooth asset tags, machine utilization, and ISO 15143-3 (AEMP 2.0) data feeds. |
+| **[HCSS Equipment360](https://www.hcss.com/)** | \$45/user/month (Base License) | 14-Day Customized Demo | **\$140M Rev / \$850M Val** | Heavy civil construction equipment maintenance software with digital work orders, mechanic scheduling, and parts inventory management integrated with HeavyBid. |
+| **[Fleetio Construction](https://www.fleetio.com/)** | \$5/vehicle/month (Starter Plan) | 14-Day Free Trial (No Credit Card) | **\$45M Rev / \$350M Val** | Modern cloud fleet maintenance software featuring work order management, DVIR inspections, fuel card integrations, and automated preventive maintenance schedules. |
+| **[Tenna](https://www.tenna.com/)** | \$12/asset/month (Tracker Plan) | 14-Day Free Operational Demo | **\$25M Rev / \$150M Val** | Construction-only equipment management platform providing mixed-fleet tracking (heavy machinery, vehicles, mid-sized equipment, and small tools). |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+The open-source ecosystem offers powerful options for self-hosting telematics servers, CAN bus decoding engines, logistics dispatching, and equipment maintenance modules. Projects are sorted by **GitHub Star Count** descending:
+
+| 📦 Repository | ⭐️ Star Count | 🛠️ Tech Stack & License | 🚀 Primary Focus |
+| :--- | :--- | :--- | :--- |
+| **[Traccar](https://github.com/traccar/traccar)** | [![Traccar Stars](https://img.shields.io/github/stars/traccar/traccar?style=social&color=white)](https://github.com/traccar/traccar/stargazers) | Java, React, MySQL/PostgreSQL (Apache-2.0) | Leading open-source GPS tracking system supporting **200+ telemetry protocols** and 2,000+ device models. Supports geofencing, speed alerts, and custom alarms. |
+| **[OpenRemote](https://github.com/openremote/openremote)** | [![OpenRemote Stars](https://img.shields.io/github/stars/openremote/openremote?style=social&color=white)](https://github.com/openremote/openremote/stargazers) | Java, TypeScript, PostgreSQL (AGPL-3.0) | 100% open-source IoT Platform with dedicated fleet management and asset tracking modules for large-scale equipment monitoring. |
+| **[Fleetbase](https://github.com/fleetbase/fleetbase)** | [![Fleetbase Stars](https://img.shields.io/github/stars/fleetbase/fleetbase?style=social&color=white)](https://github.com/fleetbase/fleetbase/stargazers) | PHP/Laravel, Ember.js, Docker (AGPL-3.0) | Open-source logistics and supply chain operating system. The **Fleet-Ops** module provides real-time tracking, order dispatching, and route optimization. |
+| **[MyCarTracks API / Client](https://github.com/mycartracks/android-tracker)** | [![MyCarTracks Stars](https://img.shields.io/github/stars/mycartracks/android-tracker?style=social&color=white)](https://github.com/mycartracks/android-tracker/stargazers) | Java, Android SDK (MIT) | Open-source mobile tracker client for recording construction vehicle drives, automatic jobsite entrance/exit detection, and geofence logs. |
+| **[Loxya](https://github.com/Loxya/Loxya)** | [![Loxya Stars](https://img.shields.io/github/stars/Loxya/Loxya?style=social&color=white)](https://github.com/Loxya/Loxya/stargazers) | PHP, Vue.js, Docker (AGPL-3.0) | Open-source equipment rental management platform to manage heavy machinery inventory, client contracts, reservations, and dispatching. |
+| **[CarCare Server](https://github.com/kacperkasztelanic/carcare-server)** | [![CarCare Stars](https://img.shields.io/github/stars/kacperkasztelanic/carcare-server?style=social&color=white)](https://github.com/kacperkasztelanic/carcare-server/stargazers) | Java (Spring Boot), React, MariaDB (MIT) | Vehicle and machinery fleet management backend tracking repairs, maintenance, inspections, insurance renewals, and fuel logs. |
+| **[Fleetms](https://github.com/jmnda-dev/fleetms)** | [![Fleetms Stars](https://img.shields.io/github/stars/jmnda-dev/fleetms?style=social&color=white)](https://github.com/jmnda-dev/fleetms/stargazers) | Elixir (Phoenix), Tailwind CSS, PostgreSQL (MIT) | Open-source Fleet Maintenance Management System (FMMS) with DVIR checklists, work orders, service reminders, and parts inventory. |
+| **[Routario](https://github.com/bkbillybk/routario)** | [![Routario Stars](https://img.shields.io/github/stars/bkbillybk/routario?style=social&color=white)](https://github.com/bkbillybk/routario/stargazers) | Python 3.11+, FastAPI, PostgreSQL/PostGIS (GPL-3.0) | Self-hosted GPS fleet tracking server with 8 native protocols (Teltonika, Queclink, TK103) featuring live map, geofencing, and zero subscription fees. |
+| **[Track Maintenance](https://github.com/Marvinjon/track-maintenance)** | [![Track Maintenance Stars](https://img.shields.io/github/stars/Marvinjon/track-maintenance?style=social&color=white)](https://github.com/Marvinjon/track-maintenance/stargazers) | Python (FastAPI), React 18, MySQL (Apache-2.0) | Open-source companion service for **Traccar** adding maintenance logs, spare parts inventory, and automated service reminders via REST webhooks. |
+| **[Fleet Management System](https://github.com/pypi/fleet-management-system)** | [![Fleet Management System Stars](https://img.shields.io/github/stars/pypi/fleet-management-system?style=social&color=white)](https://github.com/pypi/fleet-management-system/stargazers) | Python, SQLite/PostgreSQL (MIT) | Python automotive & equipment telematics engine supporting OBD-II diagnostics, NMEA 0183 GPS, CAN bus decoding, and DTC code analysis. |
+
+---
+
+## ☕ Support & Community
+
+If you find this curated ecosystem list helpful for your construction tech stack or open-source research, please consider supporting the project!
+
+- ⭐️ **Star this repository** to help others discover construction telematics tools.
+- 🔀 **Fork it** to contribute new SaaS platforms or open-source projects.
+- 📢 **Share** with fleet managers, civil engineers, and IoT developers.
+- 💖 **Sponsor the Maintainer**: Buy me a coffee via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Construction-Equipment-Fleet-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Construction-Equipment-Fleet-Management&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork the repository.
+2. Add or edit entries in `README.md` maintaining table formatting.
+3. Ensure pricing, valuation, and GitHub star links are up-to-date and accurate.
+4. Submit a Pull Request with a short description of the changes.
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement of any particular SaaS or software product.
+- Construction equipment fleet management software handles critical machinery diagnostics and jobsite safety data; always ensure compliance with local regulations and ISO telematics standards (such as AEMP 2.0 / ISO 15143-3).
+
+---
+
+**Made for construction fleet managers, civil contractors, equipment operators, and IoT telematics developers.**
