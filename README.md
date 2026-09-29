@@ -143,3 +143,5 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - **[WSO2 OpenFGC](https://github.com/wso2/openfgc)**
 
   Industry-agnostic, flexible **fine-grained consent management engine
+# Awesome-Equipment-Fleet-Management
+
